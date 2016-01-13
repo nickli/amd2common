@@ -10,7 +10,7 @@ module.exports = function(convertDir,opts) {
     var r2c = require("./convert");
 
     opts = (opts || {});
-    var root = opts.root;
+    var root = (opts.root || "./");
     var baseUrl = opts.baseUrl;
     var paths = opts.paths;
 
