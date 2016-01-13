@@ -1,6 +1,6 @@
 {
   "name": "amd2common",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "把整个amd格式module的目录深度替换为commonjs规范的module",
   "main": "index.js",
   "scripts": {

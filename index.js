@@ -22,7 +22,8 @@ module.exports = function(convertDir,opts) {
         var jsFilePath = viewJsFiles[i];
 
         //如果该js文件存在
-        console.log(jsFilePath)
+        console.log(jsFilePath);
+        
         if (fs.existsSync(jsFilePath)) {
             var commonContent = r2c(jsFilePath, {
                 root: root,
