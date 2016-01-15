@@ -13,7 +13,7 @@ command方式：
 cd到需要转换的目标文件夹上级目录，比如~/user/site/amd 这个目录要转换为commonjs规范，那首先cd到~/user/site ， 然后在命令行执行
 
 ~~~js
-amd2common site
+amd2common amd
 ~~~
 
 API方式：参考example中的run.js
